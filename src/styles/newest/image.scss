@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.isHidden{
+    display: none;
+}
+
+.imgNewContainer{
+    position: relative;
+}
+
+.image{
+    height: 232px;
+    width: 232px;
+    margin-bottom: 10px;
+}
+
+.isStored{
+    position: absolute;
+}
+
+.tagRow{
+    display: flex;
+    margin-right: 5px;
+}
+
+.tag{
+    font-size: 12px;
+    margin-right: 5px;
+    opacity: 66%;
+}
+
+.imageTitle{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media (max-width: 680px) {
+
+}
+
+
